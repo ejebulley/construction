@@ -1,0 +1,134 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+#hero {
+    background: url(/assets/images/Construction-1-2.jpg) no-repeat center center/cover;
+
+    /* background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover; */
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff9900;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background: #e68a00;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+#services .service-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+#projects .project-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.project-item {
+    background: #ccc;
+    padding: 50px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
